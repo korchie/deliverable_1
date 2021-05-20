@@ -9,17 +9,17 @@ body {
 .header {
     color:#7944e6;
     padding: 20px;
+    margin-bottom: 20px;
     background-color: white;
     text-align: right;
 }
 
-section {
-    padding: 20px;
-}
+
 
 .top {
-    word-spacing: 30px;
-    font-size: 1.1em;
+    word-spacing: 20px;
+    font-size: .8em;
+    margin-top: 35px;
 }
 
 .ccc-image {
@@ -28,12 +28,12 @@ section {
 }
 
 img {
-    max-width: 50%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    
 }
 
 a:link {
@@ -74,6 +74,7 @@ p {
 .pink-section {
     padding: 20px;
     margin: 20px;
+    margin-top: 50px;
     background-color: #ff00ff;
     text-align: left;
 }
@@ -82,30 +83,30 @@ p {
     border-style: solid;
     border-color: #7944e6;
     border-width: 5px;
-    padding: 0px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 20px;
+    min-width: 50%;
     }
 
 .cream-section {
     border-style: solid;
     border-color: #7944e6;
     border-width: 5px;
-    padding: 0px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 20px;
+    min-width: 50%;
     }
 
 .cookies-section {
     border-style: solid;
     border-color: #7944e6;
     border-width: 5px;
-    padding: 0px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 20px;
+    min-width: 50%;
     }
 
 @media screen and (min-width: 768px) {
@@ -125,18 +126,35 @@ p {
         justify-content: center;
     }
     
-    .side-by-side-item2 {
-        width: 20%;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-top: 15px;
+    .side-by-side-container2 {
+        display: flex;
+        justify-content: flex-start;
+        width: 50%;
         margin-left: 40px;
-        margin-right: 40px;
+        
+    }
+
+    .side-by-side-item2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .side-by-side-item2 img {
-        min-width: 100%;
+        min-width: 60%;
         height: auto;
+    }
+
+    .top {
+        word-spacing: 30px;
+        font-size: 1.1em;
+    }
+
+    .pink-section {
+        margin-top: -10px;
     }
     
 }
