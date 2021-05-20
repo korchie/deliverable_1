@@ -144,7 +144,7 @@ p {
     }
 
     .side-by-side-item2 img {
-        min-width: 60%;
+        max-width: 60%;
         height: auto;
     }
 
